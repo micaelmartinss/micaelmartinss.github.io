@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(90deg, rgba(9,30,50,1) 0%, rgba(30,57,78,1) 26%, rgba(37,57,78,1) 56%, rgba(36,59,74,1) 79%, rgba(9,30,50,1) 100%);}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 24px;
+}
+/*
+font-family: 'Righteous', cursive;
+font-family: 'Sarala', sans-serif;
+*/
+.cabecalho-paragrafo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: rgb(231,230,187);
+    border-bottom: 2px solid #e7e6bb;
+}
+
+/*Deixar uma margin no final da pagian, se quizer*/
+.conteudo {
+
+}
+
+.foto-perfil {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #d3e4ef;
+}
+
+.conteudo-primario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+.primario-esquerdo {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.nome {
+    font-family: 'Sarala', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #e7e6bb;
+}
+
+.primario-direito {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+
+}
+
+.primario-titulo {
+    font-family: 'Sarala', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #e7e6bb;
+}
+
+.primario-descricao {
+    padding-left: 70px;
+    padding-right: 70px;
+    color: #6cb3c4;
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    border-top: 2px solid #e7e6bb;
+}
+
+.titulo-secundario {
+    font-family: 'Sarala', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #e7e6bb;
+    padding-bottom: 30px;
+}
+
+.lista {    
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    justify-content: space-around;
+}
+
+.texto-lista {
+    font-family: 'Sarala', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #e7e6bb;
+}
+
+.lista-imagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
